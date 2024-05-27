@@ -10,8 +10,11 @@ import org.http4k.format.Argo.string
 
 val argoMessageLens = Body.json().toLens()
 
-val argoMessage = obj(
+val exampleMessage = obj(
     "thisIsAString" to string("stringValue"),
     "thisIsANumber" to number(12345),
-    "thisIsAList" to array(listOf(boolean(true)))
+    "thisIsAList" to array(listOf(boolean(true))),
+    "thisIsAnObject" to obj(
+        "thisIsAnotherString" to string("anotherString")
+    )
 )
