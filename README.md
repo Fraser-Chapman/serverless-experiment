@@ -1,0 +1,7 @@
+# ServerlessExperiment
+
+## Package
+```
+./gradlew distZip
+```
+
