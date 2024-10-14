@@ -52,7 +52,7 @@ tasks {
 }
 
 dependencies {
-    implementation("com.amazonaws:aws-lambda-java-events:3.11.5")
+    implementation("com.amazonaws:aws-lambda-java-events:3.14.0")
     implementation("org.http4k:http4k-core:${http4kVersion}")
     implementation("org.http4k:http4k-format-argo:${http4kVersion}")
     implementation("org.http4k:http4k-serverless-core:${http4kVersion}")
